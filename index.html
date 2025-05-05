@@ -74,24 +74,6 @@
         color: #fff;
       }
 
-      .signup-button {
-        padding: 10px 22px;
-        background-color: #e50914;
-        color: white !important;
-        border-radius: 6px;
-        font-weight: bold;
-        transition: background 0.3s, transform 0.3s;
-        text-transform: uppercase;
-        font-size: 15px;
-        letter-spacing: 1px;
-      }
-
-      .signup-button:hover {
-        background-color: #c40610;
-        transform: translateY(-3px);
-        color: #fff;
-      }
-
       section {
         padding: 80px 20px;
         max-width: 1200px;
@@ -385,12 +367,12 @@
       <div class="logo">YG Entertainment</div>
       <nav>
         <ul>
-          <li><a href="signup.html" class="signup-button">Signup/Login</a></li>
+          <li class="signup"><a href="signup.html">Signup</a></li>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#ceo-group">CEO & Kpop Idols</a></li>
           <li><a href="#audition">Audition</a></li>
-        </ul>
+        </ul>        
       </nav>
     </header>
 
@@ -400,7 +382,63 @@
       <a href="#audition" class="cta-button">Apply Now</a>
     </section>
 
-    <!-- Other sections remain the same -->
+    <section id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About YG Entertainment</h2>
+          <p>
+            YG Entertainment is a powerhouse in the K-pop industry, home to global acts like BLACKPINK, BIGBANG, and TREASURE.
+            We are always on the lookout for the next star to rise — whether you're a singer, dancer, or all-around idol,
+            this is your chance to shine.
+          </p>
+        </div>
+        <div class="about-image">
+          <img
+            src="YG-Entertainments-Phenomenal-Success-Bringing-K-pop-To-A-Global-Scale.webp"
+            alt="YG Entertainment Logo"
+            class="about-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="ceo-group">
+      <h2>Meet the CEO & Famous Kpop Idol</h2>
+      <div class="ceo-card">
+        <img src="YG.jpeg" alt="Yang Hyun-suk (CEO)" />
+        <h3>Yang Hyun-suk</h3>
+        <p>Founder & CEO of YG Entertainment. A visionary producer and talent scout who helped create the global K-pop wave.</p>
+      </div>
+
+      <div class="ceo-group-container">
+        <div class="ceo-group-card">
+          <img src="PINKCHELLA WALLPAPERS.jpg" />
+          <h3>BLACKPINK</h3>
+          <p>
+            BLACKPINK is a South Korean girl group formed by YG Entertainment, known for blending fierce rap, powerful vocals,
+            and stylish visuals. They're global icons in K-pop, breaking records and barriers with every release.
+          </p>
+        </div>
+        <div class="ceo-group-card">
+          <img src="th.jpeg" />
+          <h3>BIGBANG</h3>
+          <p>
+            BIGBANG is a legendary K-pop boy band formed in 2006 by YG Entertainment. Known for their genre-blending music and
+            iconic hits like "Fantastic Baby" and "BANG BANG BANG," they are pioneers in K-pop and have had a massive impact
+            on music and pop culture.
+          </p>
+        </div>
+        <div class="ceo-group-card">
+          <img src="2NE1.jpeg" />
+          <h3>2NE1</h3>
+          <p>
+            2NE1 was a groundbreaking K-pop girl group formed by YG Entertainment in 2009. Known for their bold style and
+            hits like <strong>"I Am the Best"</strong> and <strong>"Fire"</strong>, they became icons in the K-pop industry
+            before disbanding in 2016.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <section id="audition" class="form-section">
       <h2>Online Audition Form</h2>
@@ -444,6 +482,7 @@
         const video = document.getElementById('video').value.trim();
         const resume = document.getElementById('resume').files.length;
 
+        // No restrictions on video link now
         if (!name || !email || !role || !video || !resume) {
           alert("Please complete all fields and upload your documents.");
           return;
