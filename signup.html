@@ -185,13 +185,13 @@
           <button type="submit" class="submit-btn">Sign Up</button>
         </form>
         <div id="signupSuccessMessage" class="success-message" style="display:none;">
-          Sign Up Successful! Redirecting...
+          Sign Up Successful! Redirecting to login...
         </div>
       </div>
     </div>
 
     <div class="link-container">
-      <a href="https://www.yourwebsite.com" target="_blank">Visit Main Site</a>
+      <a href="https://www.yourwebsite.com" target="_blank"></a>
     </div>
   </div>
 
@@ -204,7 +204,7 @@
     const loginForm = document.getElementById('loginForm');
     const signupSuccessMessage = document.getElementById('signupSuccessMessage');
 
-    // Toggle between forms
+    // Switch Forms
     loginBtn.addEventListener('click', () => {
       loginFormWrapper.classList.add('active');
       signupFormWrapper.classList.remove('active');
@@ -222,26 +222,32 @@
     // Sign Up Process
     signupForm.addEventListener('submit', (e) => {
       e.preventDefault();
-
+      const fullName = document.getElementById('signupFullName').value;
       const email = document.getElementById('signupEmail').value;
       const password = document.getElementById('signupPassword').value;
 
       signupSuccessMessage.style.display = 'block';
 
       setTimeout(() => {
-        // Fill login fields
+        signupSuccessMessage.style.display = 'none';
+        loginFormWrapper.classList.add('active');
+        signupFormWrapper.classList.remove('active');
+        loginBtn.classList.add('active');
+        signupBtn.classList.remove('active');
+
         document.getElementById('loginUsername').value = email;
         document.getElementById('loginPassword').value = password;
 
-        // Redirect
-        window.location.href = 'index.html';
+        // Auto redirect after simulated login
+        setTimeout(() => {
+          window.location.href = 'index.html';
+        }, 1000);
       }, 2000);
     });
 
-    // Login Process
+    // Login Process - silent redirect
     loginForm.addEventListener('submit', (e) => {
       e.preventDefault();
-
       const username = document.getElementById('loginUsername').value;
       const password = document.getElementById('loginPassword').value;
 
