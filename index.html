@@ -74,6 +74,21 @@
         color: #fff;
       }
 
+      /* >>> Signup button style <<< */
+      .signup a {
+        background-color: #e50914;
+        color: white !important;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: background 0.3s, transform 0.3s;
+      }
+
+      .signup a:hover {
+        background-color: #c40610;
+        transform: translateY(-2px);
+      }
+
       section {
         padding: 80px 20px;
         max-width: 1200px;
@@ -367,11 +382,11 @@
       <div class="logo">YG Entertainment</div>
       <nav>
         <ul>
-          <li class="signup"><a href="signup.html">Signup</a></li>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#ceo-group">CEO & Kpop Idols</a></li>
           <li><a href="#audition">Audition</a></li>
+          <li class="signup"><a href="signup.html">Signup/Login</a></li>
         </ul>        
       </nav>
     </header>
@@ -482,7 +497,6 @@
         const video = document.getElementById('video').value.trim();
         const resume = document.getElementById('resume').files.length;
 
-        // No restrictions on video link now
         if (!name || !email || !role || !video || !resume) {
           alert("Please complete all fields and upload your documents.");
           return;
