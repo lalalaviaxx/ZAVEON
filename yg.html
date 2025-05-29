@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YG Full Glass Box</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: #ffffff;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .glass-box {
+      width: 95vw;
+      max-width: 400px;
+      height: 85vh;
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 2px solid rgba(255, 0, 0, 0.3);
+      border-radius: 25px;
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      animation: pulseBox 4s infinite ease-in-out;
+      text-align: center;
+    }
+
+    @keyframes pulseBox {
+      0%, 100% {
+        box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+      }
+      50% {
+        box-shadow: 0 0 40px rgba(255, 0, 0, 0.6);
+      }
+    }
+
+    .logo {
+      width: 170px;
+      margin-bottom: 40px;
+    }
+
+    .start-button {
+      background-color: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 25px;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+      letter-spacing: 1px;
+      font-weight: bold;
+    }
+
+    .start-button:hover {
+      background-color: #cc0000;
+      transform: scale(1.08);
+      box-shadow: 0 6px 16px rgba(255, 0, 0, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="glass-box">
+    <img src="YG_Entertainment_logo.svg.png" alt="YG Logo" class="logo" />
+    <a href="signup.html" class="start-button">Start</a>
+  </div>
+</body>
+</html>

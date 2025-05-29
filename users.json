@@ -1,0 +1,58 @@
+{
+    "zia": {
+        "password": "$2y$10$uVe.8C7YjWpZ8zAsAtvf\/eiZ9pbBfqXTQcGQkjB55pkYWzObRaZqa",
+        "role": "User"
+    },
+    "lavea": {
+        "password": "$2y$10$NZ79qw\/sH79Fl\/tSBa7cIO8R25xmsynT6euO5ay1pNKkHjy7uiN.S",
+        "role": "User"
+    },
+    "angge": {
+        "password": "$2y$10$UfcKSdOPlHMWgiMSL8QJoeQAzFIEpNQAjymRavGPX1Jk6hijr7XM2",
+        "role": "User"
+    },
+    "kharen": {
+        "password": "$2y$10$1Vm6kEIwIbBYyiIECVeU.ubx4jUAJHKooLDNxQxPozgphViL6pWq2",
+        "role": "User"
+    },
+    "karen": {
+        "email": "karen@gmail.com",
+        "password": "$2y$10$TZzZbgawAwAe0g4fWNDoA.LukIQllfYqWuBeYWlkCRyyB8EBfBbA6",
+        "role": "User"
+    },
+    "lisa": {
+        "email": "lisa@gmail.com",
+        "password": "$2y$10$JP38tXguTsP7pRlT3kcDn.L3p8XraPpPTQYrinC37vTnAlaB0KihW",
+        "role": "User"
+    },
+    "yg": {
+        "email": "yg@gmail.com",
+        "password": "$2y$10$ssd6mI5j0CXi23Q7ShLh2.7L7UvV\/\/V8GyEXoHR\/uVJ25Qtc\/VeJ.",
+        "role": "YG ADMIN"
+    },
+    "lala": {
+        "email": "lalisa@gmail.com123",
+        "password": "$2y$10$L1vFrOAjjkftrr1Z4dH4O.wJDl7Ubv\/8kYmVxO\/sSCn\/BAOc9cny.",
+        "role": "YG ADMIN"
+    },
+    "koko": {
+        "email": "koko@gmail.com",
+        "password": "$2y$10$RTJWdo1VKnF9Ats43F.ws.\/ntTiyZT8xRjUGsz9pkWT7.Iyx2NgNu",
+        "role": "YG ADMIN"
+    },
+    "jennie": {
+        "email": "jennie@gmail.com",
+        "password": "$2y$10$dvEZo3plorHzhzSZaY2\/suZwr8moWUHenc\/umfOetcBDxOsCAdI4a",
+        "role": "User"
+    },
+    "laveapomares": {
+        "email": "laveapomares@gmail.com",
+        "password": "$2y$10$5e4GfgZpvjhIpduG9Zth9ugeS62SMzs7tXYwEywuJn2qz2Q1haUNi",
+        "role": "User"
+    },
+    "avonjoy montilla": {
+        "email": "avonjoy@gmail.com",
+        "password": "$2y$10$PtmAB0B2vRZ8HxdHySs8MuzcejQam2TFkXGj53cbgYpzTqHBS35L2",
+        "role": "User"
+    }
+}

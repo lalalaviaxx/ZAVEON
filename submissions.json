@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Lisa Manoban",
+        "email": "lisa@gmail.com",
+        "role": "dancer",
+        "video": "uploads\/1748447772_video_lv_7431192423612599608_20250301234215 (1).mp4",
+        "date": "2025-05-29",
+        "resume": "uploads\/1748447772_resume_1748401782_resume_485002737_694100339707107_327346959306393846_n.jpg",
+        "nationality": "Thailand",
+        "age": 28,
+        "status": "Accepted",
+        "message": "\ud83c\udf89 Congratulations! You have been accepted for the YG Entertainment audition."
+    },
+    {
+        "name": "karen",
+        "email": "karen@gmail.com",
+        "role": "singer",
+        "video": "uploads\/1748501530_video_lv_7431192423612599608_20250301234215 (1).mp4",
+        "date": "2025-05-30",
+        "resume": "uploads\/1748501530_resume_1748433881_resume_485002737_694100339707107_327346959306393846_n.jpg",
+        "nationality": "philippines",
+        "age": 23,
+        "status": "Accepted"
+    },
+    {
+        "name": "Lavea Pomares",
+        "email": "laveapomares@gmail.com",
+        "role": "dancer",
+        "video": "uploads\/1748509627_video_lv_7431192423612599608_20250301234215 (1).mp4",
+        "date": "2025-05-30",
+        "resume": "uploads\/1748509627_resume_1748401782_resume_485002737_694100339707107_327346959306393846_n.jpg",
+        "nationality": "philippines",
+        "age": 22,
+        "status": "Accepted",
+        "message": "\ud83c\udf89 Congratulations Lavea Pomares! You have been accepted for the YG Entertainment audition."
+    },
+    {
+        "name": "sheridan marielle sulapas",
+        "email": "sheridan@gmail.com",
+        "role": "rapper",
+        "video": "uploads\/1748510537_video_lv_7431192423612599608_20250301234215 (1).mp4",
+        "date": "2025-05-30",
+        "resume": "uploads\/1748510537_resume_1748401782_resume_485002737_694100339707107_327346959306393846_n.jpg",
+        "nationality": "japanese",
+        "age": 21,
+        "status": "Declined",
+        "message": "\ud83d\ude14 Sorry sheridan marielle sulapas, you have not been selected for this round. Thank you for your effort!"
+    },
+    {
+        "name": "Avonjoy Montilla",
+        "email": "avonjoy@gmail.com",
+        "role": "singer",
+        "video": "uploads\/1748515609_video_lv_7431192423612599608_20250301234215 (1).mp4",
+        "date": "2025-05-30",
+        "resume": "uploads\/1748515609_resume_1748401782_resume_485002737_694100339707107_327346959306393846_n.jpg",
+        "nationality": "philippines",
+        "age": 22,
+        "status": "Accepted",
+        "message": "\ud83c\udf89 Congratulations Avonjoy Montilla! You have been accepted for the YG Entertainment audition."
+    }
+]
